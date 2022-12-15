@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Basic Grammer</title>
+        <link rel="icon" type="image/x-icon" href="image/programming-language.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC">
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-none d-lg-block">     
+                  <img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="vote" src="image/votes.png"/>
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">基本架構</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">變數/運算子</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">判斷式</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">迴圈</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">陣列</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#loop">函式</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0" align="center" style="font-size: 100px;">
+                        <span class="text-primary a02">&nbsp;C&nbsp;+&nbsp;+&nbsp;</span>
+                      <br>
+                        <span class="text-basic">基礎語法</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                    </div>
+                    <p class="lead mb-5"></p>
+                    <div class="social-icons" align="center">
+                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" align="center">基本架構</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                          <h3 class="mb-0">Code::Blocks 介紹</h3>
+                              <p>Code::Blocks 為開發C/C++程式的整合式開發環境，可自由擴充外掛程式。</p>
+                              <ul>
+                                  <li>免費</li>
+                                  <li>開源</li>
+                                  <li>跨平台</li>
+                              </ul>
+                              <p>大多數競賽程式的比賽、檢定，所指定的編輯器軟體，例：APCS。</p>
+                          <br><br>
+                            <p>下載網址：<a href="http://www.codeblocks.org/downloads/26" target="_blank">http://www.codeblocks.org/downloads/26</a><br>選擇以下兩個。</p>
+                          <img style="height: 500px; width: 550px;" src="image/cbdownload.png"><p>一直點「下一步」就可以囉~</p>
+                          <br>
+                            <p>使用介面：</p>
+                            <img style="height: 600px; width: 650px; border-style: solid; border-width: 2px; border-color:#bd5d38; border-radius: 20px;" src="image/codeb.png" alt="codeblock介面">
+                            <p>註：<mark style="background: #98fb98;">存檔時檔名記得要加.cpp</mark>歐</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">第一支C++程式"hello, world!"</h3>
+                          
+                          <div class="code">
+                            <div>
+                              <p class="codep">基本架構程式碼：</p></div>
+                              <br>
+                              <pre>
+  #include&lt;iostream&gt;
+  using namespace std;
+  int main(){     
+    //主要的程式
+    return 0;
+  }
+                              </pre>
+                            </div>
+                          <br>
+                          <div class="code">
+                            <div>
+                              <p class="codep">輸出 "hello, world"：</p></div>
+                              <br>
+                              <pre>
+ #include&lt;iostream&gt;
+ using namespace std;
+ int main(){
+   cout &lt;&lt; &quot;Hello, world!\n&quot;; //'\n'為換行字元
+   return 0;
+ }
+                              </pre>
+                          </div>
+                          <p>到<a href="https://zerojudge.tw/" target="_blank">zerojudge</a>上傳程式碼看看能不能 AC 叭！</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" align="center">變數/運算子</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">變數(Variable)簡介</h3>
+                            <p>變數の定義：一個有名稱的記憶體儲存空間，其中可包含資料型態、記憶體位址、儲存值。 <span style="color: red; font-size: 80%;">Tips: 變數名稱盡量取英文名稱！</span></p>
+                          <br>
+                              <div class="code">
+                                <div>
+                                  <p class="codep">變數の宣告：</p></div>
+                                  <br>
+                                  <pre>
+ #include&lt;iostream&gt;
+ using namespace std;
+ int main(){
+   int number1;
+   int numder2 = 10;
+ //資料型態 變數名稱 (=儲存值);
+   float number3 = 10.5;
+   return 0;
+ }
+                                  </pre>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">常用變數類型</h3>
+                          <p style="color: #000080; font-weight: bold;">整數型態：</p>
+                          <ul>
+                            <li>int</li>
+                            <li>long long</li>
+                            <li>unsidned long long</li>
+                          </ul>
+                            <p class="remark">int的可儲存範圍最小，相對的其占用之記憶體空間也最小。<br>反之unsigned long long的可儲存範圍最大，相對的其占用之記憶體空間也最大。</p>
+                          <br><br>
+                          <p style="color: #000080; font-weight: bold;">浮點數(小數)型態：</p>
+                          <ul>
+                            <li>float</li>
+                            <li>double</li>
+                            <li>double double</li>
+                          </ul>
+                            <p class="remark">float型態從小數點後開始計算，可儲存的位數最少，精確度最低。<br>反之，double double型態的精確度最高。</p>
+                          <br><br>
+                          <p style="color: #000080; font-weight: bold;">布林值型態：bool</p>
+                            <p class="remark">常用於是非判斷。</p>
+                          <br><br>
+                          <p style="color: #000080; font-weight: bold;">字元/字串型態：</p>
+                          <ul>
+                            <li>char 字元</li>
+                            <li>string 字串</li>
+                          </ul>
+                            <p class="remark">字串是由一個以上的字元所組成。</p>
+                          <br>
+                          <div class="code">
+                            <div>
+                              <p class="codep">變數の範圍和用法：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    int int1 = 10;  //範圍: -2147483648 ~ 2147483647
+    int int2 = 10000000000;
+    long long ll = 100;  //範圍: -9223372036854775808 ~ 9223372036854775807
+    unsigned long long ull = 1000;  //範圍: 0 ~ 18446744073709551615
+    cout &lt;&lt; "\n int1 = " &lt;&lt; int1 &lt;&lt; '\n';
+    cout &lt;&lt; "\n int2 = " &lt;&lt; int2 &lt;&lt; '\n';
+    cout &lt;&lt; "\n ll = " &lt;&lt; ll &lt;&lt; '\n';
+    cout &lt;&lt; "\n ull = " &lt;&lt; ull &lt;&lt; '\n';
+   
+    float float1 = 1.23; //精度: 3.4E +/- 38 (7 位數)
+    float float2 = 1.00000123;
+    double db = 1.23;  //精度: 	1.7E +/- 308 (15 位數)
+    cout &lt;&lt; "\n float1 = " &lt;&lt; float1 &lt;&lt; '\n';
+    cout &lt;&lt; "\n float2 = " &lt;&lt; float2 &lt;&lt; '\n';
+    cout &lt;&lt; "\n db = " &lt;&lt; db &lt;&lt; '\n';
+    
+    bool flag = 0;  //只包含True(1) or False(0)
+    if(flag) cout &lt;&lt; "\n Accept\n";
+   
+    char c = 33;  //預設為 -128 到 127
+    string s = "c++";
+    cout &lt;&lt; "\n c = " &lt;&lt; c &lt;&lt; '\n';
+    cout &lt;&lt; "\n s = " &lt;&lt; s &lt;&lt; '\n';
+    return 0;
+}
+                              </pre>
+                          </div>
+                              <p class="remark">可以把程式碼貼到codeblock上執行，試著修改參數，<br>比較各變數型態的不同，和當變數的值超出範圍時，會發生甚麼？</p>
+                          <br><br>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">常見運算子</h3>
+                          <p style="font-size: 1.3rem; color: #000080; font-weight: bold;">算術運算子：</p>
+                            <p class="remark">運用於一般的數學計算。</p>
+                          <ul>
+                            <li>+ &rarr; 加</li>
+                            <li>- &rarr; 減</li>
+                            <li>* &rarr; 乘</li>
+                            <li>/ &rarr; 除(取商數，無條件捨去)</li>
+                            <li>%(mod) &rarr; 取餘數</li>
+                          </ul>
+                          <br><br>
+                          <p style="font-size: 1.3rem; color: #000080; font-weight: bold;">指派運算子：</p>
+                            <p class="remark">原本的值根據運算符號和另一個值做出改變後，再指派給原先的變數。</p>
+                          <ul>
+                            <li>A+=B &rarr; A的值變成(A+B)的值</li>
+                            <li>A-=B &rarr; A的值變成(A-B)的值</li>
+                            <li>A*=B &rarr; A的值變成(A*B)的值</li>
+                            <li>A/=B &rarr; A的值變成(A除以B之商數)的值</li>
+                            <li>A%=B &rarr; A的值變成(A除以B之餘數)的值</li>
+                          </ul>
+                            <p class="not">也就是說，「A+=B」 等同於 「A=A+B」 。</p>
+                          <br><br>
+                          <p style="font-size: 1.3rem; color: #000080; font-weight: bold;">關係運算子：</p>
+                            <p class="remark">對兩個值做出比較的行為，再回傳一個 True or False 的結果。</p>
+                          <ul>
+                            <li>== &rarr; 等於</li>
+                            <li>!= &rarr; 不等於</li>
+                            <li>&gt;= &rarr; 大於等於</li>
+                            <li>&gt; &rarr; 大於</li>
+                            <li>&lt;= &rarr; 小於等於</li>
+                            <li>&lt; &rarr; 小於</li>
+                          </ul>
+                          <br><br>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">實作題</h3>
+                          <a href="https://toj.tfcis.org/oj/pro/93/" target="_blank">梯形面積</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" align="center">判斷式</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">如果-(否則如果)-否則 <span style="font-size: 80%;">"if-(else if)-else"</span></h3><br>
+                          <p>"if-else" 用於程式需要依照不同的條件，執行不同結果時。</p>
+                          <div class="code">
+                            <div>
+                              <p class="codep">基本語法：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    if(條件1成立){
+        執行程式1;
+    }
+    else if(條件2成立){     //可省略
+        執行程式2;
+    }
+    else{                 //可省略
+        執行程式3;
+    }
+    return 0;
+}
+                              </pre>
+                          </div>
+                          <p class="remark">注意縮排，執行程式每行都需縮排。<br>注意格式，"if", "if else", "else"各為一個區塊(每個區塊都擁有屬於自己的大括號，不存在誰包住誰)。</p>
+                          <br>
+                          <div class="code">
+                            <div>
+                              <p class="codep">範例程式碼：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){   
+    int &Alpha;, &Beta;;
+    cin &gt;&gt; &Alpha; &gt;&gt; &Beta;;
+    if(&Alpha;==&Beta;){              //如果A等於B
+        cout &lt;&lt; &Prime;the same\n&Prime;;     //輸出"the same"
+    }
+    else if(&Alpha; &gt; &Beta;){        //如果A大於B
+        cout &lt;&lt; &Alpha; &lt;&lt; &prime;\n&prime;;       //輸出A的值
+    }
+    else if(&Alpha; &lt; &Beta;){        //如果A小於B
+        cout &lt;&lt; &Beta; &lt;&lt; &prime;\n&prime;;       //輸出B的值
+    }
+    else{                  //否則
+        cout &lt;&lt; &Prime;nothing\n&Prime;;     //輸出"nothing"
+    }
+    return 0;
+}
+                              </pre>
+                          </div>
+                          <br>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">實作題</h3>
+                          <a href="https://toj.tfcis.org/oj/pro/94/" target="_blank">判斷季節</a>
+                          <br><br>
+                          <a href="https://zerojudge.tw/ShowProblem?problemid=a006" target="_blank">一元二次方程式</a>
+                          <details>
+                          <summary>參考程式碼</summary>
+                          <div class="code">
+                            <div>
+                              <pre>
+#include&lt;iostream&gt;
+#include&lt;math.h&gt; &frasl;&frasl;可以用sqrt()的標頭檔
+using namespace std;
+int main(){
+    int a, b, c;
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    &frasl;&frasl; x=(−b±√b*b−4ac)/2a
+    int tmp = b*b-4*a*c;
+    if(tmp &gt; 0){  
+        int x1=(-b+sqrt(tmp))/(2*a); &frasl;&frasl;sqrt() 開根號
+        int x2=(-b-sqrt(tmp))/(2*a);
+        if(x1 &lt; x2){  &frasl;&frasl;轉換x1、x2
+            int k;
+            k = x1;
+            x1 = x2;
+            x2 = k;
+        }
+        cout &lt;&lt; "Two different roots x1=" &lt;&lt; x1 &lt;&lt; " , x2=" &lt;&lt; x2 &lt;&lt; '\n';
+    }
+    else if(tmp == 0){
+        int x=(-b)/(2*a);
+        cout &lt;&lt; "Two same roots x=" &lt;&lt; x &lt;&lt; '\n';
+    }
+    else{
+        cout &lt;&lt; "No real root\n";
+    }
+    return 0;
+}
+                            </pre>
+                          </div>
+                        </div>
+                          </details>
+                        </div>
+                    </div>
+                  <br><br><br>
+                          <div class="d-flex flex-column flex-md-row justify-content-between">
+                              <div class="flex-grow-1">
+                                  <h3 class="mb-0">練習題</h3>
+                                <a href="https://zerojudge.tw/ShowProblem?problemid=f043" target="_blank">小豪的回家作業</a><br>
+                                <a href="https://toj.tfcis.org/oj/pro/95/" target="_blank">體育期末考</a><br>
+                                <a href="https://zerojudge.tw/ShowProblem?problemid=d067" target="_blank">格瑞哥里的煩惱</a>
+                              </div>
+                          </div>
+                  <br><br>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"><span style="font-size: 80%;">"switch-case"</span></h3>
+                          <p>"switch-case" 用於一個變數(數字 or 字元)等於不同值，執行不同的結果。</p>
+                          <p class="remark">switch 的括號內放條件式，是不被允許的!&nbsp;&nbsp;EX.switch(A>10)</p>
+                          <div class="code">
+                            <div>
+                              <p class="codep">基本語法：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    switch(變數名稱 or 運算式){
+        case 符合的數字或字元:
+            執行程式1;
+            break;
+        case 符合的數字或字元:
+            執行程式2;
+            break;
+        default:  //默認
+            break;
+    }
+    return 0;
+}
+                              </pre>
+                          </div>
+                          <br>
+                          <div class="code">
+                            <div>
+                              <p class="codep">範例程式碼：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    cout &lt;&lt; "Please enter Your grade...\n";
+    char grade;
+    cin &gt;&gt; grade;
+    switch(grade){
+        case 'A':
+            cout &lt;&lt; "Perfect!\n";
+            break;
+        case 'B':
+        case 'C':
+            cout &lt;&lt; "Very Good!\n";
+            break;
+        case 'D':
+            cout &lt;&lt; "You Pass!\n";
+            break;
+        case 'F':
+            cout &lt;&lt; "You Fail!\n";
+            break;
+        default:
+            cout &lt;&lt; "Please enter your grade by A, B, C, D, F...\n";
+    }
+   return 0;
+ }
+                              </pre>
+                          </div>
+                          <br>
+                        </div>
+                    </div>
+                  <br><br><br>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">實作題</h3>
+                          <a href="https://zerojudge.tw/ShowProblem?problemid=d460" target="_blank">山六九之旅</a><br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" align="center">迴圈</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">當(...)時(...) <span style="font-size: 80%;">"while"</span></h3><br>
+                          <p>"while" 常用於某段程式需要多次執行的時候。</p>
+                          <p class="remark">需要注意的是，當括號內的條件成立時，while迴圈會一直重複執行。<br>也就是說，如果執行程式沒有設置停止的條件，整個迴圈會無限次重複執行。</p>
+                          <div class="code">
+                            <div>
+                              <p class="codep">基本語法：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    while(條件成立){
+        執行程式;
+    }
+    return 0;
+}
+                              </pre>
+                          </div>
+                          <br>
+                          <div class="code">
+                            <div>
+                              <p class="codep">範例程式碼：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    &frasl;&frasl;輸出 n~1
+    int n;
+    cin &gt;&gt; n;
+    while(n &gt;= 1){
+        cout &lt;&lt; n &lt;&lt; &#039;\n&#039;;
+        n&ndash;=1;
+    }
+    return 0;
+}
+                              </pre>
+                          </div>
+                        <br><br><br>
+                          <div class="d-flex flex-column flex-md-row justify-content-between">
+                              <div class="flex-grow-1">
+                                  <h3 class="mb-0">實作題</h3>
+                                  <a href="https://zerojudge.tw/ShowProblem?problemid=a453" target="_blank">2010TOI初選_第一題</a>
+                                  <details>
+                                  <summary>參考程式碼</summary>
+                                  <div class="code">
+                                    <div>
+                                      <pre>
+#include&lt;iostream&gt;
+#include&lt;math.h&gt; &frasl;&frasl;可以用sqrt()的標頭檔
+using namespace std;
+int main(){
+    int m;
+    cin &gt;&gt; m;
+    while(m &lt;= 1){
+        int a, b, c;
+        cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+        int tmp = b*b&ndash;4*a*c;  &frasl;&frasl;判別式
+        int d = sqrt(tmp);
+        if(tmp == 0){
+            cout &lt;&lt; &quot;Yes\n&quot;;
+        }
+        else if(tmp&lt;0 &amp;&amp; tmp==d*d){
+            cout &lt;&lt; &quot;Yes\n&quot;;
+        }
+        else{
+            cout &lt;&lt; &quot;No\n&quot;;
+        }
+        m&ndash;=1;
+    }
+    return 0;
+}
+                                    </pre>
+                                  </div>
+                                </div>
+                                  </details><br><br>
+                            </div>
+                          </div>
+                          <br><br>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"> &quot;for&quot; 迴圈 </h3><br>
+                          <p></p>
+                          <div class="code">
+                            <div>
+                              <p class="codep">基本語法：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    for(前情提要; 執行條件; 收尾工作){
+        執行程式;
+    }
+    return 0;
+}
+                              </pre>
+                          </div>
+                          <p class="remark">前面的程式&nbsp;加上&nbsp;"前情提要"&nbsp;，符合&nbsp;"執行條件"&nbsp;，則&nbsp;"執行程式"&nbsp;，"收尾工作"，準備開始下一回合。<br>直到&nbsp;"執行條件"&nbsp;不通過 or &nbsp;"執行程式"&nbsp;被中斷時，結束整個迴圈。</p>
+                          <p class="not">注意!&nbsp;&nbsp;"前情提要"只有在第一輪的迴圈會執行。</p>
+                          <br>
+                          <div class="code">
+                            <div>
+                              <p class="codep">範例程式碼：</p></div>
+                              <br>
+                              <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    int n;
+    cin &gt;&gt; n;
+    for(int i=n; i&gt;=1; --i){
+        cout &lt;&lt; i &lt;&lt; '\n';
+    }
+    return 0;
+}
+                              </pre>
+                          </div>
+                          <br>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">實作題</h3>
+                          <a href="https://zerojudge.tw/ShowProblem?problemid=a244" target="_blank">新手訓練</a><br><br>
+                          <a href="https://zerojudge.tw/ShowProblem?problemid=e621" target="_blank">免費停車</a>
+                                  <details>
+                                  <summary>參考程式碼</summary>
+                                  <div class="code">
+                                    <div>
+                                      <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    int n;
+    cin &gt;&gt; n;
+    while(n--){
+        int a, b, c;
+        cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+        bool flag=0;  &frasl;&frasl;一個判斷的工具(有無公因數)
+        for(int i=a+1; i&lt;b; ++i){ 
+            if(i%c != 0){
+                flag=1;
+                cout &lt;&lt; i &lt;&lt; ' ';
+            }
+        }
+        if(flag==0){
+            cout &lt;&lt; "No free parking spaces.";
+        }
+        cout &lt;&lt; '\n';
+    }
+    return 0;
+}
+                                    </pre>
+                                  </div>
+                                </div>
+                                  </details><br><br>
+                          <a href="https://toj.tfcis.org/oj/pro/3/" target="_blank">最大公因數(GCD)</a>
+                                <details>
+                                  <summary>原始暴力法(解這題會TLE)</summary>
+                                  <div class="code">
+                                    <div>
+                                      <pre>
+#include&lt;iostream&gt;
+#include&lt;algorithm&gt;
+using namespace std;
+int main(){
+    int t;
+    cin &gt;&gt; t;
+    while(t--){
+        int a, b;
+        cin &gt;&gt; a &gt;&gt; b;
+        if(a &lt; b){  &frasl;&frasl;確保a大於b
+            swap(a, b);
+        }
+        int gcd=0;
+        for(int i=1; i&lt;=b; ++i){
+            if(a%i==0 && b%i==0){
+                gcd = i;
+            }
+        }
+        cout &lt;&lt; gcd &lt;&lt; '\n';
+    }
+    return 0;
+}
+                                    </pre>
+                                  </div>
+                                </div>
+                              </details>
+                                <details>
+                                  <summary>輾轉相除法</summary>
+                                  <div class="code">
+                                    <div>
+                                      <pre>
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    int t;
+    cin &gt;&gt; t;
+    while(t--){
+        int a, b;
+        cin &gt;&gt; a &gt;&gt; b;
+        while(a!=0 && b!=0){  &frasl;&frasl;輾轉相除法
+            if(a &gt;= b){
+                a %= b;
+            }
+            else{
+                b %= a;
+            }
+        }
+        if(a &gt;= b){
+            cout &lt;&lt; a &lt;&lt; '\n';
+        }
+        else{
+            cout &lt;&lt; b &lt;&lt; '\n';
+        }
+    }
+    return 0;
+}
+                                    </pre>
+                                  </div>
+                                </div>
+                                  </details><br><br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" align="center">陣列</h2>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="loop">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" align="center">函式</h2>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+    </body>
+</html>
